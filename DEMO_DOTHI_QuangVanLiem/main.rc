@@ -1,0 +1,250 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR              CURSOR  DISCARDABLE     "RESOURCE\\arrow_im.cur"
+IDC_CURSOR1             CURSOR  DISCARDABLE     "RESOURCE\\hnodrop.cur"
+IDC_CO                  CURSOR  DISCARDABLE     "resource\\cursor2.cur"
+IDC_DICHUYEN            CURSOR  DISCARDABLE     "resource\\cur00001.cur"
+IDC_NOI                 CURSOR  DISCARDABLE     "resource\\cur00002.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&He thong"
+    BEGIN
+        MENUITEM "Tao do thi",                  ID_TAO
+        MENUITEM "Chon do thi",                 ID_CHON
+        MENUITEM SEPARATOR
+        MENUITEM "Thoat",                       ID_THOAT
+    END
+    POPUP "&Tro giup"
+    BEGIN
+        MENUITEM "Thong tin",                   ID_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_NEW
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR             BITMAP  DISCARDABLE     "resource\\toolbar1.bmp"
+IDB_CHONDOTHI2          BITMAP  DISCARDABLE     "RESOURCE\\chondothi2.bmp"
+IDB_CHONDOTHI1          BITMAP  DISCARDABLE     "RESOURCE\\chondothi1.bmp"
+IDB_CHONTHUATTOAN1      BITMAP  DISCARDABLE     "RESOURCE\\chonthuattoan1.bmp"
+IDB_CHONTHUATTOAN2      BITMAP  DISCARDABLE     "RESOURCE\\chonthuattoan2.bmp"
+IDB_FAST1               BITMAP  DISCARDABLE     "RESOURCE\\fast1.bmp"
+IDB_FAST2               BITMAP  DISCARDABLE     "RESOURCE\\fast2.bmp"
+IDB_PLAY1               BITMAP  DISCARDABLE     "RESOURCE\\play1.bmp"
+IDB_PLAY2               BITMAP  DISCARDABLE     "RESOURCE\\play2.bmp"
+IDB_SAU1                BITMAP  DISCARDABLE     "RESOURCE\\sau1.bmp"
+IDB_SAU2                BITMAP  DISCARDABLE     "RESOURCE\\sau2.bmp"
+IDB_TIEP1               BITMAP  DISCARDABLE     "RESOURCE\\tiep1.bmp"
+IDB_TIEP2               BITMAP  DISCARDABLE     "RESOURCE\\tiep2.bmp"
+IDB_TROGIUP1            BITMAP  DISCARDABLE     "RESOURCE\\trogiup1.bmp"
+IDB_TROGIUP2            BITMAP  DISCARDABLE     "RESOURCE\\trogiup2.bmp"
+IDB_SLOW1               BITMAP  DISCARDABLE     "RESOURCE\\slow1.bmp"
+IDB_SLOW2               BITMAP  DISCARDABLE     "RESOURCE\\slow2.bmp"
+IDB_PAUSE1              BITMAP  DISCARDABLE     "RESOURCE\\pause1.bmp"
+IDB_PAUSE2              BITMAP  DISCARDABLE     "RESOURCE\\pause2.bmp"
+IDB_DAODIEN             BITMAP  DISCARDABLE     "RESOURCE\\daodien.bmp"
+IDB_THEMDINH1           BITMAP  DISCARDABLE     "RESOURCE\\themdinh1.bmp"
+IDB_THEMDINH2           BITMAP  DISCARDABLE     "RESOURCE\\themdinh2.bmp"
+IDB_THEMCUNG1           BITMAP  DISCARDABLE     "RESOURCE\\themcung1.bmp"
+IDB_THEMCUNG2           BITMAP  DISCARDABLE     "RESOURCE\\themcung2.bmp"
+IDB_THOAT1              BITMAP  DISCARDABLE     "RESOURCE\\thoat1.bmp"
+IDB_THOAT2              BITMAP  DISCARDABLE     "RESOURCE\\thoat2.bmp"
+IDB_DAODIEN2            BITMAP  DISCARDABLE     "RESOURCE\\daodien2.bmp"
+IDB_ABOUT               BITMAP  DISCARDABLE     "RESOURCE\\about.bmp"
+IDB_TEN                 BITMAP  DISCARDABLE     "RESOURCE\\ten1.bmp"
+IDB_WELL1               BITMAP  DISCARDABLE     "RESOURCE\\well1.bmp"
+IDB_WELL2               BITMAP  DISCARDABLE     "RESOURCE\\well2.bmp"
+IDB_WELL3               BITMAP  DISCARDABLE     "RESOURCE\\well3.bmp"
+IDB_WELL4               BITMAP  DISCARDABLE     "RESOURCE\\well4.bmp"
+IDB_WELL5               BITMAP  DISCARDABLE     "RESOURCE\\well5.bmp"
+IDB_ABOUT2              BITMAP  DISCARDABLE     "resource\\bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_NOI DIALOG DISCARDABLE  0, 0, 109, 59
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Lien ket dinh"
+FONT 12, "Times New Roman"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,18,37,30,12
+    GROUPBOX        "",IDC_STATIC,15,11,80,21
+    LTEXT           "Trong so : ",ID_TT,20,18,31,11
+    EDITTEXT        ID_TRONGSO,52,17,30,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "CANCEL",IDCANCEL,55,37,36,12
+END
+
+ID_CHONDINH DIALOG DISCARDABLE  0, 0, 170, 94
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "Verdana"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,60,66,50,14
+    LTEXT           "CHON DINH",IDC_STATIC,66,13,41,13
+    GROUPBOX        "Dinh xuat phat",IDC_STATIC,14,31,68,27
+    GROUPBOX        "Dinh ket thuc",IDC_STATIC,88,31,68,27
+    COMBOBOX        ID_XUATPHAT,17,41,61,46,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        ID_KETTHUC,92,41,61,46,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DINHXUATPHAT DIALOG DISCARDABLE  0, 0, 140, 63
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "Verdana"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,45,36,42,12
+    LTEXT           "Dinh xuat phat : ",IDC_STATIC,19,15,59,11
+    COMBOBOX        IDC_DINHXUATPHAT,98,14,29,42,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 513, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CHUONG TRINH MO PHONG CAC THUAT TOAN TREN DO THI    Version 1.0"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         159,IDC_STATIC,"Static",SS_BITMAP,11,12,194,145
+    CONTROL         161,IDC_STATIC,"Static",SS_BITMAP,215,12,283,145
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_NOI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 102
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 52
+    END
+
+    ID_CHONDINH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_DINHXUATPHAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 133
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 506
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "RESOURCE\\Zune.ico"
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

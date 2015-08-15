@@ -1,0 +1,8 @@
+LIBRARY      "lib_dothi.dll"
+DESCRIPTION  'Thu vien cho demo_dothi'
+
+EXPORTS
+   lien_thong @1
+	tim_min @2
+	dao_mang @3
+	min_prim @4
